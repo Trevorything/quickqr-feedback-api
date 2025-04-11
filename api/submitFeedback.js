@@ -31,6 +31,7 @@ module.exports = async (req, res) => {
   if (!orderId || !customerRating) {
     return res.status(400).send('Missing required fields');
   }
+console.log("Connecting to SQL with config:", config);
 
   try {
     await sql.connect(config);
