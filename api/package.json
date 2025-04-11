@@ -1,0 +1,8 @@
+{
+  "name": "quickqr-feedback-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mssql": "^9.0.1"
+  }
+}
